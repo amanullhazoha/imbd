@@ -6,10 +6,10 @@ import Navbar from './components/navbar.component';
 class App extends Component {
     render() { 
         return (
-            <div className='container'>
+            <>
                 <Navbar />
                 <Movies />
-            </div>
+            </>
         );
     }
 }
